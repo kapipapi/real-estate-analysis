@@ -1,0 +1,15 @@
+name: real-estate-dinov2-test
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - pillow
+  - pytorch::pytorch
+  - torchvision
+  - torchaudio
+  - lightning
+variables:
+  PYTORCH_ENABLE_MPS_FALLBACK: 1
