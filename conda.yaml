@@ -1,4 +1,4 @@
-name: real-estate-dinov2-test
+name: real-estate-analysis-torch
 channels:
   - defaults
   - pytorch
@@ -13,5 +13,7 @@ dependencies:
   - lightning
   - torchinfo
   - tqdm
+  - beautifulsoup4
+  - matplotlib
 variables:
   PYTORCH_ENABLE_MPS_FALLBACK: 1
