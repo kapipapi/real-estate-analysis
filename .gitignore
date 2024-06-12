@@ -1,4 +1,6 @@
 images/
 .DS_Store
+
 dinov2_test/data
 dinov2_test/lightning_logs
+dinov2_test/lightning_logs_old
