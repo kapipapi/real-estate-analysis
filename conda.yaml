@@ -15,5 +15,7 @@ dependencies:
   - tqdm
   - beautifulsoup4
   - matplotlib
+  - py-xgboost-cpu
+  - scikit-learn
 variables:
   PYTORCH_ENABLE_MPS_FALLBACK: 1
