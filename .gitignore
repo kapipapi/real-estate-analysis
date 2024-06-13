@@ -6,3 +6,5 @@ dinov2_test/data
 dinov2_test/lightning_logs
 dinov2_test/lightning_logs_old
 dinov2_test/dinov2_flat_embeding.ipynb
+
+lightning_logs/
